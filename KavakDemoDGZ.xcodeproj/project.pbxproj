@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16476AB524C02D9C005E0ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16476AB424C02D9C005E0ADB /* AppDelegate.swift */; };
+		16476AB724C02D9C005E0ADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16476AB624C02D9C005E0ADB /* SceneDelegate.swift */; };
+		16476AB924C02D9C005E0ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16476AB824C02D9C005E0ADB /* ViewController.swift */; };
+		16476ABC24C02D9C005E0ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16476ABA24C02D9C005E0ADB /* Main.storyboard */; };
+		16476ABE24C02DA3005E0ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16476ABD24C02DA3005E0ADB /* Assets.xcassets */; };
+		16476AC124C02DA3005E0ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16476ABF24C02DA3005E0ADB /* LaunchScreen.storyboard */; };
+		16476ACC24C02DA3005E0ADB /* KavakDemoDGZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16476ACB24C02DA3005E0ADB /* KavakDemoDGZTests.swift */; };
+		16476AD724C02DA3005E0ADB /* KavakDemoDGZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16476AD624C02DA3005E0ADB /* KavakDemoDGZUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16476AC824C02DA3005E0ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16476AA924C02D9C005E0ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16476AB024C02D9C005E0ADB;
+			remoteInfo = KavakDemoDGZ;
+		};
+		16476AD324C02DA3005E0ADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16476AA924C02D9C005E0ADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16476AB024C02D9C005E0ADB;
+			remoteInfo = KavakDemoDGZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16476AB124C02D9C005E0ADB /* KavakDemoDGZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KavakDemoDGZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16476AB424C02D9C005E0ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16476AB624C02D9C005E0ADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16476AB824C02D9C005E0ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16476ABB24C02D9C005E0ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16476ABD24C02DA3005E0ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16476AC024C02DA3005E0ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16476AC224C02DA3005E0ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16476AC724C02DA3005E0ADB /* KavakDemoDGZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KavakDemoDGZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16476ACB24C02DA3005E0ADB /* KavakDemoDGZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavakDemoDGZTests.swift; sourceTree = "<group>"; };
+		16476ACD24C02DA3005E0ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16476AD224C02DA3005E0ADB /* KavakDemoDGZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KavakDemoDGZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16476AD624C02DA3005E0ADB /* KavakDemoDGZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KavakDemoDGZUITests.swift; sourceTree = "<group>"; };
+		16476AD824C02DA3005E0ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16476AAE24C02D9C005E0ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476AC424C02DA3005E0ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476ACF24C02DA3005E0ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16476AA824C02D9C005E0ADB = {
+			isa = PBXGroup;
+			children = (
+				16476AB324C02D9C005E0ADB /* KavakDemoDGZ */,
+				16476ACA24C02DA3005E0ADB /* KavakDemoDGZTests */,
+				16476AD524C02DA3005E0ADB /* KavakDemoDGZUITests */,
+				16476AB224C02D9C005E0ADB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16476AB224C02D9C005E0ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16476AB124C02D9C005E0ADB /* KavakDemoDGZ.app */,
+				16476AC724C02DA3005E0ADB /* KavakDemoDGZTests.xctest */,
+				16476AD224C02DA3005E0ADB /* KavakDemoDGZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16476AB324C02D9C005E0ADB /* KavakDemoDGZ */ = {
+			isa = PBXGroup;
+			children = (
+				16476AB424C02D9C005E0ADB /* AppDelegate.swift */,
+				16476AB624C02D9C005E0ADB /* SceneDelegate.swift */,
+				16476AB824C02D9C005E0ADB /* ViewController.swift */,
+				16476ABA24C02D9C005E0ADB /* Main.storyboard */,
+				16476ABD24C02DA3005E0ADB /* Assets.xcassets */,
+				16476ABF24C02DA3005E0ADB /* LaunchScreen.storyboard */,
+				16476AC224C02DA3005E0ADB /* Info.plist */,
+			);
+			path = KavakDemoDGZ;
+			sourceTree = "<group>";
+		};
+		16476ACA24C02DA3005E0ADB /* KavakDemoDGZTests */ = {
+			isa = PBXGroup;
+			children = (
+				16476ACB24C02DA3005E0ADB /* KavakDemoDGZTests.swift */,
+				16476ACD24C02DA3005E0ADB /* Info.plist */,
+			);
+			path = KavakDemoDGZTests;
+			sourceTree = "<group>";
+		};
+		16476AD524C02DA3005E0ADB /* KavakDemoDGZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16476AD624C02DA3005E0ADB /* KavakDemoDGZUITests.swift */,
+				16476AD824C02DA3005E0ADB /* Info.plist */,
+			);
+			path = KavakDemoDGZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16476AB024C02D9C005E0ADB /* KavakDemoDGZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16476ADB24C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZ" */;
+			buildPhases = (
+				16476AAD24C02D9C005E0ADB /* Sources */,
+				16476AAE24C02D9C005E0ADB /* Frameworks */,
+				16476AAF24C02D9C005E0ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KavakDemoDGZ;
+			productName = KavakDemoDGZ;
+			productReference = 16476AB124C02D9C005E0ADB /* KavakDemoDGZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16476AC624C02DA3005E0ADB /* KavakDemoDGZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16476ADE24C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZTests" */;
+			buildPhases = (
+				16476AC324C02DA3005E0ADB /* Sources */,
+				16476AC424C02DA3005E0ADB /* Frameworks */,
+				16476AC524C02DA3005E0ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16476AC924C02DA3005E0ADB /* PBXTargetDependency */,
+			);
+			name = KavakDemoDGZTests;
+			productName = KavakDemoDGZTests;
+			productReference = 16476AC724C02DA3005E0ADB /* KavakDemoDGZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16476AD124C02DA3005E0ADB /* KavakDemoDGZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16476AE124C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZUITests" */;
+			buildPhases = (
+				16476ACE24C02DA3005E0ADB /* Sources */,
+				16476ACF24C02DA3005E0ADB /* Frameworks */,
+				16476AD024C02DA3005E0ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16476AD424C02DA3005E0ADB /* PBXTargetDependency */,
+			);
+			name = KavakDemoDGZUITests;
+			productName = KavakDemoDGZUITests;
+			productReference = 16476AD224C02DA3005E0ADB /* KavakDemoDGZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16476AA924C02D9C005E0ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = KavakDemo;
+				TargetAttributes = {
+					16476AB024C02D9C005E0ADB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					16476AC624C02DA3005E0ADB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 16476AB024C02D9C005E0ADB;
+					};
+					16476AD124C02DA3005E0ADB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 16476AB024C02D9C005E0ADB;
+					};
+				};
+			};
+			buildConfigurationList = 16476AAC24C02D9C005E0ADB /* Build configuration list for PBXProject "KavakDemoDGZ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16476AA824C02D9C005E0ADB;
+			productRefGroup = 16476AB224C02D9C005E0ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16476AB024C02D9C005E0ADB /* KavakDemoDGZ */,
+				16476AC624C02DA3005E0ADB /* KavakDemoDGZTests */,
+				16476AD124C02DA3005E0ADB /* KavakDemoDGZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16476AAF24C02D9C005E0ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16476AC124C02DA3005E0ADB /* LaunchScreen.storyboard in Resources */,
+				16476ABE24C02DA3005E0ADB /* Assets.xcassets in Resources */,
+				16476ABC24C02D9C005E0ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476AC524C02DA3005E0ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476AD024C02DA3005E0ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16476AAD24C02D9C005E0ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16476AB924C02D9C005E0ADB /* ViewController.swift in Sources */,
+				16476AB524C02D9C005E0ADB /* AppDelegate.swift in Sources */,
+				16476AB724C02D9C005E0ADB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476AC324C02DA3005E0ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16476ACC24C02DA3005E0ADB /* KavakDemoDGZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16476ACE24C02DA3005E0ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16476AD724C02DA3005E0ADB /* KavakDemoDGZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16476AC924C02DA3005E0ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16476AB024C02D9C005E0ADB /* KavakDemoDGZ */;
+			targetProxy = 16476AC824C02DA3005E0ADB /* PBXContainerItemProxy */;
+		};
+		16476AD424C02DA3005E0ADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16476AB024C02D9C005E0ADB /* KavakDemoDGZ */;
+			targetProxy = 16476AD324C02DA3005E0ADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16476ABA24C02D9C005E0ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16476ABB24C02D9C005E0ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16476ABF24C02DA3005E0ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16476AC024C02DA3005E0ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16476AD924C02DA3005E0ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16476ADA24C02DA3005E0ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16476ADC24C02DA3005E0ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16476ADD24C02DA3005E0ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16476ADF24C02DA3005E0ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KavakDemoDGZ.app/KavakDemoDGZ";
+			};
+			name = Debug;
+		};
+		16476AE024C02DA3005E0ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KavakDemoDGZ.app/KavakDemoDGZ";
+			};
+			name = Release;
+		};
+		16476AE224C02DA3005E0ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KavakDemoDGZ;
+			};
+			name = Debug;
+		};
+		16476AE324C02DA3005E0ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JE5PSQ4L9;
+				INFOPLIST_FILE = KavakDemoDGZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Example.com.mx.KavakDemoDGZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KavakDemoDGZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16476AAC24C02D9C005E0ADB /* Build configuration list for PBXProject "KavakDemoDGZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16476AD924C02DA3005E0ADB /* Debug */,
+				16476ADA24C02DA3005E0ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16476ADB24C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16476ADC24C02DA3005E0ADB /* Debug */,
+				16476ADD24C02DA3005E0ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16476ADE24C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16476ADF24C02DA3005E0ADB /* Debug */,
+				16476AE024C02DA3005E0ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16476AE124C02DA3005E0ADB /* Build configuration list for PBXNativeTarget "KavakDemoDGZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16476AE224C02DA3005E0ADB /* Debug */,
+				16476AE324C02DA3005E0ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16476AA924C02D9C005E0ADB /* Project object */;
+}
