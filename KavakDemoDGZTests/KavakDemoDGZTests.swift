@@ -42,5 +42,20 @@ class KavakDemoDGZTests: XCTestCase {
         
     }
 
-   
+   func testValidiateDataService2() throws {
+       let promise = expectation(description: "respuesta diferente de nulo")
+       var resp:Items? = nil
+       
+       ServiceManager.shared.GetData(completion: { (response:Items) in
+           resp  = response
+           promise.fulfill()
+       }) { (error) in
+            XCTFail("Respuesta code: \(error)")
+       }
+       
+       wait(for: [promise], timeout: 7)
+       //XCTAssertNil(resp)
+       XCTAssertEqual(resp?.brastlewark?.count, 1337)
+       
+   }
 }
