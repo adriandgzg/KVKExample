@@ -24,11 +24,23 @@ class KavakDemoDGZTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+ 
+    func testValidiateDataService() throws {
+        let promise = expectation(description: "respuesta diferente de nulo")
+        var resp:Items? = nil
+        
+        ServiceManager.shared.GetData(completion: { (response:Items) in
+            resp  = response
+            promise.fulfill()
+        }) { (error) in
+             XCTFail("Respuesta code: \(error)")
         }
+        
+        wait(for: [promise], timeout: 7)
+        //XCTAssertNil(resp)
+        XCTAssertEqual(resp?.brastlewark?.count, 1337)
+        
     }
 
+   
 }

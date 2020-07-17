@@ -72,6 +72,10 @@
 		16710B2F24C1781D0034A2FF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16710B2E24C1781D0034A2FF /* ProfileViewModel.swift */; };
 		16710B3024C1781D0034A2FF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16710B2E24C1781D0034A2FF /* ProfileViewModel.swift */; };
 		16710B3124C1781D0034A2FF /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16710B2E24C1781D0034A2FF /* ProfileViewModel.swift */; };
+		16710B3224C192F50034A2FF /* ResultSearchAdvanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16710B0D24C128FA0034A2FF /* ResultSearchAdvanceTableViewCell.swift */; };
+		16710B3324C192F50034A2FF /* ResultSearchAdvanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16710B0D24C128FA0034A2FF /* ResultSearchAdvanceTableViewCell.swift */; };
+		16710B3424C193060034A2FF /* ResultSearchAdvanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16710B0E24C128FA0034A2FF /* ResultSearchAdvanceTableViewCell.xib */; };
+		16710B3524C193060034A2FF /* ResultSearchAdvanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16710B0E24C128FA0034A2FF /* ResultSearchAdvanceTableViewCell.xib */; };
 		1C345F0161740BB379D61CE0 /* Pods_KavakDemoDGZ_KavakDemoDGZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3F918A186A6B7D8F9E7A9D /* Pods_KavakDemoDGZ_KavakDemoDGZUITests.framework */; };
 		91CD883932E3B8EACA6EC75B /* Pods_KavakDemoDGZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E664D7DF362C89877B5B4BB5 /* Pods_KavakDemoDGZ.framework */; };
 /* End PBXBuildFile section */
@@ -531,6 +535,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16710B2824C176B80034A2FF /* Profile.storyboard in Resources */,
+				16710B3424C193060034A2FF /* ResultSearchAdvanceTableViewCell.xib in Resources */,
 				16710B1C24C146A50034A2FF /* FilterItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,6 +545,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16710B2924C176B80034A2FF /* Profile.storyboard in Resources */,
+				16710B3524C193060034A2FF /* ResultSearchAdvanceTableViewCell.xib in Resources */,
 				16710B1D24C146A50034A2FF /* FilterItemCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,6 +692,7 @@
 				16476AF124C037E1005E0ADB /* Items.swift in Sources */,
 				16476AEE24C037E1005E0ADB /* Brastlewark.swift in Sources */,
 				1655899D24C0FAD500CCDF06 /* SingletonData.swift in Sources */,
+				16710B3324C192F50034A2FF /* ResultSearchAdvanceTableViewCell.swift in Sources */,
 				16476AFF24C04599005E0ADB /* Extension.swift in Sources */,
 				16710B2C24C177B10034A2FF /* ProfileViewController.swift in Sources */,
 				165589AD24C108BB00CCDF06 /* AdvancedSearchViewController.swift in Sources */,
@@ -710,6 +717,7 @@
 				16476AF224C037E1005E0ADB /* Items.swift in Sources */,
 				16476AEF24C037E1005E0ADB /* Brastlewark.swift in Sources */,
 				1655899E24C0FAD500CCDF06 /* SingletonData.swift in Sources */,
+				16710B3224C192F50034A2FF /* ResultSearchAdvanceTableViewCell.swift in Sources */,
 				16476B0024C04599005E0ADB /* Extension.swift in Sources */,
 				16710B2D24C177B10034A2FF /* ProfileViewController.swift in Sources */,
 				165589AE24C108BB00CCDF06 /* AdvancedSearchViewController.swift in Sources */,
