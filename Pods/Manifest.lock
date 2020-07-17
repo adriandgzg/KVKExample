@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Magnetic (3.2.1)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 4.1)
+  - Magnetic
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Magnetic
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Magnetic: 02b9d6686160421cc4285140387419ec9ccab033
+
+PODFILE CHECKSUM: b6047a88978787b2498b0b30b643911a904ded99
+
+COCOAPODS: 1.9.3

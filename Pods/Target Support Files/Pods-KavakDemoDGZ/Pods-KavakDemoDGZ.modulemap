@@ -1,0 +1,6 @@
+framework module Pods_KavakDemoDGZ {
+  umbrella header "Pods-KavakDemoDGZ-umbrella.h"
+
+  export *
+  module * { export * }
+}

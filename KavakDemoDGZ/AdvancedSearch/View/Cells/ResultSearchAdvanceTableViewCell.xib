@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResultSearchAdvanceTableViewCell" id="KGk-i7-Jjw" customClass="ResultSearchAdvanceTableViewCell" customModule="KavakDemoDGZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y4a-cN-tsR">
+                        <rect key="frame" x="10" y="11" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="h71-3J-dMP"/>
+                            <constraint firstAttribute="width" constant="45" id="rBx-hY-KeJ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="23"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xyH-X4-ewj">
+                        <rect key="frame" x="71" y="8" width="303" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="bPf-bu-TZ6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgI-3T-eOl">
+                        <rect key="frame" x="71" y="33" width="303" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xyH-X4-ewj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="J7n-zf-aIg"/>
+                    <constraint firstItem="Y4a-cN-tsR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="RUT-aC-pBc"/>
+                    <constraint firstAttribute="bottom" secondItem="LgI-3T-eOl" secondAttribute="bottom" constant="8" id="X7c-2T-e8x"/>
+                    <constraint firstAttribute="trailing" secondItem="xyH-X4-ewj" secondAttribute="trailing" constant="16" id="b5M-Kg-LHa"/>
+                    <constraint firstItem="Y4a-cN-tsR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="f42-Gk-wHd"/>
+                    <constraint firstItem="LgI-3T-eOl" firstAttribute="leading" secondItem="Y4a-cN-tsR" secondAttribute="trailing" constant="16" id="gZb-cc-grx"/>
+                    <constraint firstItem="LgI-3T-eOl" firstAttribute="top" secondItem="xyH-X4-ewj" secondAttribute="bottom" constant="4" id="hmy-A3-lVU"/>
+                    <constraint firstItem="xyH-X4-ewj" firstAttribute="leading" secondItem="Y4a-cN-tsR" secondAttribute="trailing" constant="16" id="iaH-AM-zt1"/>
+                    <constraint firstAttribute="trailing" secondItem="LgI-3T-eOl" secondAttribute="trailing" constant="16" id="j3N-v0-GUi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgItem" destination="Y4a-cN-tsR" id="9KS-Zu-V1j"/>
+                <outlet property="lblName" destination="xyH-X4-ewj" id="kjP-3g-0YP"/>
+                <outlet property="lglDescripcion" destination="LgI-3T-eOl" id="OER-tn-NMh"/>
+            </connections>
+            <point key="canvasLocation" x="184.05797101449278" y="160.37946428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
